@@ -1,16 +1,33 @@
-# React + Vite
+A simple and interactive Quiz Application built with React and Vite.
+The app allows users to answer multiple-choice questions, navigate between them, and receive a final score at the end.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
 
-Currently, two official plugins are available:
+Multiple questions with 4 answer options
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Next / Previous question navigation
 
-## React Compiler
+Answer highlighting (selected state)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Final score calculation
 
-## Expanding the ESLint configuration
+Clean component structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Built using React Hooks (useState)
+
+📸 Project Structure
+QUIZZ-APP/
+ ├── src/
+ │   ├── components/
+ │   ├── assets/
+ │   ├── App.jsx
+ │   ├── main.jsx
+ │   └── index.css
+ ├── public/
+ ├── package.json
+ ├── vite.config.js
+ └── README.md
+
+🚀 Installation & Running
+npm install
+npm run dev
